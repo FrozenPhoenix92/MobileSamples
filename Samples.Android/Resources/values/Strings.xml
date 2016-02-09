@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApplicationName">Samples.Android</string>
+  <color name="cellback">#FFDAFF7F</color>
+  <string-array name="MenuItemNames">
+    <item>listItem</item>
+    <item>cardViewItem</item>
+    <item>tabsItem</item>
+    <item>autoCompleteItem</item>
+    <item>datePickerItem</item>
+    <item>galleryItem</item>
+    <item>gridViewItem</item>
+    <item>linearLayoutItem</item>
+    <item>tableLayoutItem</item>
+    <item>popupMenuItem</item>
+    <item>customAnimationItem</item>
+    <item>signaturePadItem</item>
+  </string-array>
+  <string-array name="MenuItemValues">
+    <item>Демонстрация списка</item>
+    <item>Демонстрация CardView</item>
+    <item>Демонстрация вкладок</item>
+    <item>Демонстрация автозаполнения</item>
+    <item>Домонстрация выбора даты</item>
+    <item>Демонстрация галереи</item>
+    <item>Демонстрация GridView</item>
+    <item>Демонстрация LinearLayout</item>
+    <item>Демонстрация TableLayout</item>
+    <item>Демонстрация выпадающего списка</item>
+    <item>Демонстрация пользовательской анимации</item>
+    <item>Демонстрация SignaturePad</item>
+  </string-array>
+  <string name="planetPrompt">Выберите планету</string>
+  <string-array name="planetsArray">
+    <item>Меркурий</item>
+    <item>Венера</item>
+    <item>Земля</item>
+    <item>Марс</item>
+    <item>Юпитер</item>
+    <item>Сатурн</item>
+    <item>Уран</item>
+    <item>Нептун</item>
+  </string-array>
+
+</resources>
