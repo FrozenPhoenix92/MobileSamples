@@ -17,6 +17,7 @@ using Samples.Droid.PopupMenu;
 using Samples.Droid.SignaturePad;
 using Samples.Droid.TableLayout;
 using Samples.Droid.TabsDemonstration;
+using Samples.Droid.FayoutMenu;
 
 namespace Samples.Droid
 {
@@ -76,6 +77,9 @@ namespace Samples.Droid
                         break;
                     case "signaturePadItem":
                         intent = new Intent(this, typeof(SignaturePadActivity));
+                        break;
+                    case "flayoutMenuItem":
+                        intent = new Intent(this, typeof(FayoutMenuActivity));
                         break;
                 }
                 StartActivity(intent);

@@ -15,6 +15,7 @@
     <item>popupMenuItem</item>
     <item>customAnimationItem</item>
     <item>signaturePadItem</item>
+    <item>flayoutMenuItem</item>
   </string-array>
   <string-array name="MenuItemValues">
     <item>Демонстрация списка</item>
@@ -29,6 +30,7 @@
     <item>Демонстрация выпадающего списка</item>
     <item>Демонстрация пользовательской анимации</item>
     <item>Демонстрация SignaturePad</item>
+    <item>Демонстрация бокового меню</item>
   </string-array>
   <string name="planetPrompt">Выберите планету</string>
   <string-array name="planetsArray">

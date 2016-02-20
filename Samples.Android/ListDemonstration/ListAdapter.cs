@@ -36,7 +36,7 @@ namespace Samples.Droid.ListDemonstration
         public override View GetView(int position, View convertView, ViewGroup parent)
         {
             var item = _allItems[position];
-            var view = _context.LayoutInflater.Inflate(Resource.Layout.CustomListView, null);
+            var view = convertView ?? _context.LayoutInflater.Inflate(Resource.Layout.CustomListView, null);
             view.FindViewById<TextView>(Resource.Id.Text).Text = item.Value;
             view.FindViewById<TextView>(Resource.Id.SubHeading).Text = item.SubHeading;
             if (item.ImageResourceId != -1)
